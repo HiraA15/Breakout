@@ -1,0 +1,49 @@
+html
+{
+	height: 100%;
+	width: 100%;
+	background: #333333;
+}
+body 
+{
+	width: 80%;
+	height: 100%;
+	background: #000000;
+	color: #AAAAAA;
+	margin: 0px auto;
+	text-align: center;
+}
+h1 
+{
+	margin: 0px auto;
+	padding-top: 5%;
+}
+#container 
+{
+	position: relative;
+	width: 780px;
+	height: 500px;
+	margin: 0px auto;
+}
+#canvas 
+{
+	position: absolute;
+	background: #eeccff;
+	border: solid;
+	border-width: 1px;
+	width: 768px;
+	margin: 0px auto;
+	left: 0px;
+	top: 0px;
+	z-index: 1;
+}
+#menu 
+{
+	position: absolute;
+	margin: 0px auto;
+	left: 0px;
+	top: 0px;
+	border: solid;
+	border-width: 1px;
+	z-index: 2;
+}

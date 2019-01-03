@@ -1,0 +1,9 @@
+**********Problems Found***********
+When I re-downloaded my initial submission and tried running it I found a lot of problems. I ran my index.html on Google Chrome, right clicked on inspect source, and debugged it that way. Firstly, I was missing a lot of tokens, or so Google Chrome said. I deleted a semicolon in two places, but I don't know why it was throwing an error everytime I had two variables defined inside parenthesis and then a semicolon after the ending bracket of the funtion it was defined inside. So I ignored when Google Chrome told me to fix that. Next I got mixed up in function calls on menu.js and it was calling scorekeeper instead of scores. So what I did was change them all back to scores. In addition to that, another error was in the index.html and it was that body onload= was undefined. Turns out I didn't capitalize my B in breakout on that page. I also figured out that on my return{} functions defined, I had the first bracket start out on new lines instead of the usual bracket after the function name, body code, and ending bracket on a different line. I have no idea why this made it so the program wouldn't run, but after fixing them all it ran. Actually, maybe it has something to do with the editor I used the first time? I used sublime the first time, and now I'm using Visual Studio Code..
+
+************Code*************
+This code is the same one from my original submission. It isn't a redo whatsoever. I did however rename some of my functions because of the debugging process.
+
+***********Credits***********
+Credits to the following are in addition to the original ones I listed in my first submission on Canvas.
+https://www.codecademy.com/en/forum_questions/507f6dd09266b70200000d7e
